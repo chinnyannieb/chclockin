@@ -1,3 +1,4 @@
+#labels Phase-Design
 = Database =
 
 
@@ -5,9 +6,9 @@
 So, I'm working on the database, and wanted to get some feedback on the layout since my DB experience is rather limited.
 
 ===Users===
-|| *id* || *name* || *ss#* || *payRate* || *isAdmin* || *password* || *permissions* || *clockedIn* ||
-||Numeric||String||Numeric||Numeric||bool||String||?||bool||
+|| *id* || *name* || *ss#* || *payRate* || *isAdmin* || *password* || *permissions* || *supervisor* ||
+||Numeric||String||Numeric||Numeric||bool||String||?||Numeric||
 
 ===Time Stamp===
-|| *id* || *userId* || *in/out* || *time* || *method* ||
-||Numeric||Numeric||boo
+|| *id* || *userId* || *in/out* || *time* || *method* || *approved* ||
+||Numeric||Numeric||bool||TimeStamp||String||bool||
