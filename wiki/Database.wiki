@@ -7,8 +7,8 @@ So, I'm working on the database, and wanted to get some feedback on the layout s
 
 ===Users===
 || *id* || *name* || *ss#* || *payRate* || *isAdmin* || *password* || *permissions* || *supervisor* ||
-||Numeric||String||Numeric||Numeric||bool||String||?||Numeric||
+||PK - Numeric||String||Numeric||Numeric||bool||String||?||FK - Numeric||
 
 ===Time Stamp===
 || *id* || *userId* || *in/out* || *time* || *method* || *approved* ||
-||Numeric||Numeric||bool||TimeStamp||String||bool||
+||PK - Numeric||FK - Numeric||bool||TimeStamp||String||bool||
