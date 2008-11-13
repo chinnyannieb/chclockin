@@ -7,7 +7,7 @@ So, I'm working on the database, and wanted to get some feedback on the layout s
 
 ===Users===
 || *id* || *userName* || *name* || *ss#* || *payRate* || *role* || *password* || *supervisorId* ||
-||PK - Numeric||String||String||Numeric||Numeric||String||String||FK - Numeric||
+||PK - String||String||String||Numeric||Numeric||String||Hashed String||FK - String||
 
 ===Time Stamp===
 || *id* || *userId* || *in/out* || *time* || *method* || *approved* ||
