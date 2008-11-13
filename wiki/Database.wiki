@@ -10,5 +10,5 @@ So, I'm working on the database, and wanted to get some feedback on the layout s
 ||PK - String||String||String||Numeric||Numeric||String||Hashed String||FK - String||
 
 ===Time Stamp===
-|| *id* || *userId* || *in/out* || *time* || *method* || *approved* ||
-||PK - Numeric||FK - Numeric||bool||TimeStamp||String||bool||
+|| *id* || *userId* || *in/out* || *time* || *method* || *approvedBy* ||
+||PK - Numeric||FK - String||bool||TimeStamp||String||FK - String||
