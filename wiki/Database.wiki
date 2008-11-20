@@ -11,4 +11,4 @@ So, I'm working on the database, and wanted to get some feedback on the layout s
 
 ===TimeEntry===
 || *id* || *userId* || *action* || *time* || *method* || *approvedByUserId* ||
-||PK - Numeric||FK - String||bool||TimeStamp||String||FK - String||
+||PK - Numeric||FK - String||String||TimeStamp||String||FK - String||
