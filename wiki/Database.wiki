@@ -6,8 +6,8 @@
 So, I'm working on the database, and wanted to get some feedback on the layout since my DB experience is rather limited.
 
 ===Users===
-*userName* || *name* || *ss#* || *payRate* || *role* || *password* || *supervisorId* ||
-PK - String||String||Numeric||Numeric||String||Hashed String||FK - String||
+|| *userName* || *name* || *ss#* || *payRate* || *role* || *password* || *supervisorId* ||
+|| PK - String||String||Numeric||Numeric||String||Hashed String||FK - String||
 
 ===TimeEntry===
 || *id* || *userId* || *action* || *time* || *method* || *approvedByUserId* ||
