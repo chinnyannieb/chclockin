@@ -15,3 +15,6 @@ create table users (username VARCHAR(20) PRIMARY KEY NOT NULL, name VARCHAR(50) 
 ===TimeEntry===
 || *id* || *userId* || *action* || *time* || *method* || *approvedByUserId* ||
 ||PK - Numeric||FK - String||String||TimeStamp||String||FK - String||
+
+First stab SQL:
+create table time_entry (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, username VARCHAR(20), action VARCHAR(20), time TIMESTAMP, method VARCHAR(20), approved_by_username VARCHAR(20));
